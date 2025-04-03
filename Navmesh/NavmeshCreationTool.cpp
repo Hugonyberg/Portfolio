@@ -938,7 +938,7 @@ void DreamEngine::NavmeshCreationTool::Update()
 }
 
 
-void DreamEngine::NavmeshCreationTool::BuildNavmesh() // SIMPLE MESH TEST
+void DreamEngine::NavmeshCreationTool::BuildNavmesh() 
 {
 	if (myMeshes.size() == 0)
 	{
