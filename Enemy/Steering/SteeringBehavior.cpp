@@ -305,6 +305,7 @@ WeightedForce SteeringBehavior::GetNavmeshSteering()
     return WeightedForce();
 }
 
+// Work in progress. Not fully functional as I want it.
 WeightedForce SteeringBehavior::GetSpreadSteering()
 {
     const float clusteringDistance = 10000.f;
